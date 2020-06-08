@@ -8,6 +8,7 @@ public class SpringbootrestapiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootrestapiApplication.class, args);
+		System.out.println("Using Jenkins to run the Schedule Job");
 		
 		System.out.println("Hello world");
 	}
